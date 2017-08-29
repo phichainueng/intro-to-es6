@@ -1,2 +1,81 @@
-<script src='build/main.bundle.js'></script>
-<h1>Hello World</h1>
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Intro-to-es6</title>
+	<Script src="js/index.js"></Script>
+	<style>
+
+		body{
+				background-color :	#FAF0E6; 
+			}
+		button{
+				font-size: 20px;
+				font-family: "Verdana";
+				background-color : #ffd1aa;
+				width : 50px;
+				height : 50px;
+		}
+		textarea{
+				background-color : pink; 
+				font-size : 20px; 
+				font-family : "Verdana";
+				width : 700px;
+				height : 200px;
+		}
+	</style>
+</head>
+<body>
+	<div style="text-align: center;">
+		<h1>Screen Keyboard</h1>
+		<textarea rows="5" cols="70" id="text"  name="text"></textarea>
+		<br/>
+		<div style="padding: 15px;">
+			<button type="button"onclick="clickbutton('1');">1</button>
+			<button type="button"onclick="clickbutton('2');">2</button>
+			<button type="button"onclick="clickbutton('3');">3</button>
+			<button type="button"onclick="clickbutton('4');">4</button>
+			<button type="button"onclick="clickbutton('5');">5</button>
+			<button type="button"onclick="clickbutton('6');">6</button>
+			<button type="button"onclick="clickbutton('7');">7</button>
+			<button type="button"onclick="clickbutton('8');">8</button>
+			<button type="button"onclick="clickbutton('9');">9</button>
+			<button type="button"onclick="clickbutton('0');">0</button>
+			<button type="button"onclick="del();" style="width:130px;">Backspace</button>
+			<br/><br/>
+			<button type="button"onclick="clickbutton('Q');">Q</button>
+			<button type="button"onclick="clickbutton('W');">W</button>
+			<button type="button"onclick="clickbutton('E');">E</button>
+			<button type="button"onclick="clickbutton('R');">R</button>
+			<button type="button"onclick="clickbutton('T');">T</button>
+			<button type="button"onclick="clickbutton('Y');">Y</button>
+			<button type="button"onclick="clickbutton('U');">U</button>
+			<button type="button"onclick="clickbutton('I');">I</button>
+			<button type="button"onclick="clickbutton('O');">O</button>
+			<button type="button"onclick="clickbutton('P');">P</button>
+			<br/><br/>
+			<button type="button"onclick="clickbutton('A');">A</button>
+			<button type="button"onclick="clickbutton('S');">S</button>
+			<button type="button"onclick="clickbutton('D');">D</button>
+			<button type="button"onclick="clickbutton('F');">F</button>
+			<button type="button"onclick="clickbutton('G');">G</button>
+			<button type="button"onclick="clickbutton('H');">H</button>
+			<button type="button"onclick="clickbutton('J');">J</button>
+			<button type="button"onclick="clickbutton('K');">K</button>
+			<button type="button"onclick="clickbutton('L');">L</button>
+			<button type="button"onclick="enter();" style="width:110px;">Enter</button>
+			<br/><br/>
+			<button type="button"onclick="clickbutton('Z');">Z</button>
+			<button type="button"onclick="clickbutton('X');">X</button>
+			<button type="button"onclick="clickbutton('C');">C</button>
+			<button type="button"onclick="clickbutton('V');">V</button>
+			<button type="button"onclick="clickbutton('B');">B</button>
+			<button type="button"onclick="clickbutton('N');">N</button>
+			<button type="button"onclick="clickbutton('M');">M</button>
+			<br/><br/>
+			<button type="button"onclick="space();" style="width:200px;">Space</button>
+		</div>
+	</div>
+</body>
+</html>
